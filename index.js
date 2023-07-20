@@ -1,22 +1,21 @@
 const SlackBot = require('slackbots');
 const axios = require('axios');
 const dotenv = require('dotenv');
-const botToken = process.env.BOT_TOKEN
-
 dotenv.config()
+
+const botToken = process.env.BOT_TOKEN
 
 try {
     // bot variable that initializes a new SlackBot instance which has 2 values
-    console.log(botToken)
-    // const bot = new SlackBot({
-    //     // token: `${process.env.BOT_TOKEN}`,
-    //     token: botToken,
-    //     name: 'Magic Service'
-    // })
+    console.log(`Hello ${botToken}!`)
+    // console.log(typeof botToken) //returns string
+    const bot = new SlackBot({
+        token: `${process.env.BOT_TOKEN}`,
+        name: 'Magic Service'
+    })
 } catch (error) {
     console.log("there was an error")
 }
-
 
 // create bot start handler
 // bot.on('start', () => {

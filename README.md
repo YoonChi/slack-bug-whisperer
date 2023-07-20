@@ -26,3 +26,9 @@ practicing nodejs with freecodecamp
 ### Next Steps:
 - roadblock: having auth issues . 
   - troubleshoot: grab new token key
+
+## Troubleshooting:
+`curl -d "text=Hi." -d "channel=random" -H "Authorization: Bearer $token" -X POST https://ateam-3cj6816.slack.com/api/chat.postMessage` 
+- expected output: post a message, "Hi" to channel called, `#random`.
+- validated: true
+- concerns: the key is set as a local environment variable, "token", and it works when token is passed to the curl statement. However, it does not work passing the hard-coded token value to SlackBot constructor.
