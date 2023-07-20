@@ -1,9 +1,13 @@
-const SlackBot = require('slackbots');
+// const SlackBot = require('slackbots');
 const axios = require('axios');
 const dotenv = require('dotenv');
 // const { createEventAdapter } = require('@slack/events-api');
 // const { WebClient } = require('@slack/web-api');
 const { App } = require('@slack/bolt');
+const { google } = require('googleapis');
+const { GoogleAuth } = require('google-auth-library');
+
+const keyPath = './keys/finops-bot-sa-key.json'
 
 dotenv.config()
 
@@ -15,7 +19,7 @@ dotenv.config()
 
     // validation message
     (async () => {
-        const port = 3000
+        const port = 3002
         // Start bot
         await bot.start(process.env.PORT || port);
         console.log(`⚡️ Slack Bolt app is running on port ${port}!`);
@@ -63,7 +67,137 @@ dotenv.config()
           })
     }
 
+    // const apiKey = process.env.GCP_API_KEY
+    // const baseUrl = 'https://cloudbilling.googleapis.com/v1/';
+    // const projectName = "finops-bot"
+    // const url = `${baseUrl}projects/${projectName}/billingInfo?key=${apiKey}`;
+    
+    // function callGCPBillingBudgetsAPI() {
+    //     axios.get(url)
+    //         .then(response => {
+    //             console.log('Billing info:', response.data);
+    //         })
+    //         .catch(error => {
+    //             console.error('Error fetching billing info:', error.message)
+    //         })
+    // }
+    // ---------------------------------------- //
+
+    // const auth = new google.auth.GoogleAuth({
+    //     keyFile: keyPath,
+    //     scopes: [
+    //         'https://www.googleapis.com/auth/cloud-platform', 'https://recommender.googleapis.com', 'https://www.googleapis.com/auth/compute'], 
+    // });
+    
+    async function listProjects() {
+        const cloudresourcemanager = google.cloudresourcemanager(
+            {
+                version: 'v1',
+                auth,
+            }
+        );
+        const res = await cloudresourcemanager.projects.list();
+        console.log('Projects:', res.data.projects);
+    }
+
+    async function listRecommendations() {
+        const recommender = google.recommender({
+            version: 'v1',
+            auth,
+        });
+    }
+
+
+    // ---------------------------------------- //
+    const auth = new google.auth.GoogleAuth({
+        keyFile: keyPath,
+        scopes: [
+            'https://www.googleapis.com/auth/cloud-platform', 'https://recommender.googleapis.com', 'https://www.googleapis.com/auth/compute'], 
+    });
+    
+    const compute = require('@google-cloud/compute');
+    const projectId  = "finops-bot"
+
+    async function listInstances() {
+        const compute = google.compute(
+            {
+                version: 'v1',
+                auth,
+            }
+        );
+            // const res = compute.instances.getInstance({
+            //     instance: 'bugslife',
+            //     project: 'finops-bot',
+            //     zone: 'us-central1-a'
+            // });
+        // const instances = res.data.items;
+
+        // console.log('List of instances:', instances);
+
+        // const instancesClient = new compute.InstancesClient();
+        // const zone = "us-central1-c"
+        // const [instanceList] = await instancesClient.list({
+        //     project: projectId,
+        //     zone,
+        // });
+
+        // console.log(`Instances found in zone ${zone}:`);
+        // for (const instance of instanceList) {
+        //     console.log(` - ${instance.name} (${instance.machineType})`);
+        // }
+
+  
+        }
+
+        // async function getInstance() {
+        //     const instancesClient = new compute.InstancesClient();
+
+        //     const [instance] = await instancesClient.get({
+        //     project: projectId,
+        //     zone: 'us-central1-a',
+        //     instance: 'bugslife',
+        //     });
+
+        //     const instaneName = 'bugslife'
+        //     console.log(
+        //     `Instance ${instanceName} data:\n${JSON.stringify(instance, null, 4)}`
+        //     );
+        // }
+    // ---------------------------------------- //
+//     async function getInstances() {
+//         const projectId = 'finops-bot';
+//         const computeEndpoint = `https://compute.googleapis.com/compute/v1/projects/${projectId}/aggregated/instances`;
+
+//         try {
+//             // Create a GoogleAuth client to obtain an access token
+//             const auth = new GoogleAuth();
+//             const accessToken = await auth.getAccessToken();
+//             console.log("accessToken: ", accessToken);
+
+//             // Make the API request using axios
+//             const response = await axios.get(computeEndpoint, {
+//             headers: {
+//                 Authorization: `Bearer ${accessToken}`,
+//             },
+//             });
+
+//             // Process the API response
+//             console.log(response.data);
+//             } catch (error) {
+//                 console.error('Error retrieving instances:', error.message);
+//             }
+//         }
+
+// getInstances();
+
 
 // ******** TESTING ******** //
     // postMessageToRandomChannel()
     // inspireMe();
+    // listProjects();
+    // listInstances();
+
+
+    const newProject = require('./newGCPProject')
+    newProject(); 
+    console.log("end");
