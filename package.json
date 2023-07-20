@@ -21,8 +21,13 @@
   },
   "homepage": "https://github.com/YoonChi/slack-bug-whisperer#readme",
   "dependencies": {
+    "@slack/bolt": "^3.13.2",
+    "@slack/events-api": "^3.0.1",
+    "@slack/interactive-messages": "^2.0.2",
+    "@slack/web-api": "^6.8.1",
     "axios": "^1.4.0",
     "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.1",
     "slackbots": "^1.3.0"
   }
 }
