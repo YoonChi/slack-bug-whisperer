@@ -42,36 +42,28 @@ dotenv.config()
     function handleMessage(message) {
         if(message.includes(' inspire me')) {
             inspireMe()
-        } else if(message.includes(' random joke')) {
-            randomJoke()
-        } else if(message.includes(' help')) {
-            runHelp()
         }
     }
 
-    // use axios to get the json file to return data
+        // use axios to get the json file to return data every time user requests it
     function inspireMe() {
-        axios.get('https://raw.githubusercontent.com/YoonChi/slack-bug-whisperer/main/quotes.json')
-          .then(res => {
+        axios.get('https://raw.githubusercontent.com/YoonChi/slack-bug-whisperer/main/src/quotes.json')
+          .then(res => { 
                 const quotes = res.data; // returned data
                 const random = Math.floor(Math.random() * quotes.length); // generate random number out of x number of quotes
                 const quote = quotes[random].quote // get random quote 
                 const author = quotes[random].author // get random quote's author name
-    
-                // const params = {
-                //     icon_emoji: ':male-technologist:'
-                // }
             
                 bot.client.chat.postMessage({
                     channel: `random`,
                     text: `:zap: ${quote} - *${author}*`,
-                    icon_emoji: ':male-technologist:'
+                    icon_emoji: ':male-technologist:' // needs chat:write.customize scope
                 }
                 );
           })
     }
-    
-    inspireMe();
-    // // Testing
-     // postMessageToRandomChannel()
 
+
+// ******** TESTING ******** //
+    // postMessageToRandomChannel()
+    // inspireMe();
