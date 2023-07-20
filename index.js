@@ -21,13 +21,11 @@ dotenv.config()
         console.log(`⚡️ Slack Bolt app is running on port ${port}!`);
     })();
 
-    const params = {
-        icon_emoji: ':robot_face:'
-    }
+    // const params = {
+    //     icon_emoji: ':robot_face:'
+    // }
 
-    const channel = {
-        channel: "random"
-    }
+    const channel = { channel: "random" }
     try {
         bot.client.chat.postMessage({
             channel: `random`,
@@ -36,3 +34,15 @@ dotenv.config()
     } catch (error) {
         console.log("there was an error")
     }
+
+    function handleMessage(message) {
+        if(message.includes(' inspire me') {
+            inspireMe()
+            
+        } else if(message.includes(' random joke')) {
+            randomJoke()
+        } else if(message.includes ' help')) {
+            runHelp()
+        }
+    
+    )}
