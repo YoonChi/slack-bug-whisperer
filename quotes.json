@@ -1,0 +1,503 @@
+[
+    {
+      "number": 1,
+      "author": "Steve Jobs",
+      "quote": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work."
+    },
+    {
+      "number": 2,
+      "author": "Grace Hopper",
+      "quote": "The most dangerous phrase in the language is, 'We've always done it this way.'"
+    },
+    {
+      "number": 3,
+      "author": "Linus Torvalds",
+      "quote": "Software is like sex: it's better when it's free."
+    },
+    {
+      "number": 4,
+      "author": "Elon Musk",
+      "quote": "If something is important enough, even if the odds are stacked against you, you should still do it."
+    },
+    {
+      "number": 5,
+      "author": "Alan Turing",
+      "quote": "We can only see a short distance ahead, but we can see plenty there that needs to be done."
+    },
+    {
+      "number": 6,
+      "author": "Marissa Mayer",
+      "quote": "I always did something I was a little not ready to do. I think that's how you grow."
+    },
+    {
+      "number": 7,
+      "author": "Albert Einstein",
+      "quote": "The only source of knowledge is experience."
+    },
+    {
+      "number": 8,
+      "author": "Jeff Bezos",
+      "quote": "If you double the number of experiments you do per year, you're going to double your inventiveness."
+    },
+    {
+      "number": 9,
+      "author": "Margaret Hamilton",
+      "quote": "I like to be always learning."
+    },
+    {
+      "number": 10,
+      "author": "Bill Gates",
+      "quote": "Your most unhappy customers are your greatest source of learning."
+    },
+    {
+      "number": 11,
+      "author": "Richard Branson",
+      "quote": "You don't learn to walk by following rules. You learn by doing and falling over."
+    },
+    {
+      "number": 12,
+      "author": "Larry Page",
+      "quote": "If you're changing the world, you're working on important things. You're excited to get up in the morning."
+    },
+    {
+      "number": 13,
+      "author": "Ada Lovelace",
+      "quote": "I am never satisfied with myself and that is what keeps me going - I have no post-satisfaction."
+    },
+    {
+      "number": 14,
+      "author": "Mark Zuckerberg",
+      "quote": "In a world that's changing really quickly, the only strategy that is guaranteed to fail is not taking risks."
+    },
+    {
+      "number": 15,
+      "author": "Satya Nadella",
+      "quote": "Don't be a know-it-all; be a learn-it-all."
+    },
+    {
+      "number": 16,
+      "author": "Sheryl Sandberg",
+      "quote": "The only way to do great work is to love what you do."
+    },
+    {
+      "number": 17,
+      "author": "Tim Berners-Lee",
+      "quote": "The Web as I envisaged it, we have not seen it yet. The future is still so much bigger than the past."
+    },
+    {
+      "number": 18,
+      "author": "Susan Wojcicki",
+      "quote": "It's important to follow your gut instincts and pursue your passions, even if they seem risky."
+    },
+    {
+      "number": 19,
+      "author": "Niklaus Wirth",
+      "quote": "Software is getting slower more rapidly than hardware becomes faster."
+    },
+    {
+      "number": 20,
+      "author": "Ginni Rometty",
+      "quote": "Growth and comfort do not coexist."
+    },
+    {
+      "number": 21,
+      "author": "Brian Chesky",
+      "quote": "The most important thing about a technology is how it changes people."
+    },
+    {
+      "number": 22,
+      "author": "Indra Nooyi",
+      "quote": "Just because you are CEO, don't think you have landed. You must continually increase your learning, the way you think, and the way you approach the organization."
+    },
+    {
+      "number": 23,
+      "author": "Ken Thompson",
+      "quote": "One of my most productive days was throwing away 1,000 lines of code."
+    },
+    {
+      "number": 24,
+      "author": "Sundar Pichai",
+      "quote": "Wear your failure as a badge of honor. It's proof that you're pushing yourself to the limit, trying new things, and learning from your mistakes."
+    },
+    {
+      "number": 25,
+      "author": "Mary Barra",
+      "quote": "I've always believed that if you put in the work, the results will come."
+    },
+    {
+      "number": 26,
+      "author": "Brendan Eich",
+      "quote": "Always bet on JavaScript."
+    },
+    {
+      "number": 27,
+      "author": "Rosalind Picard",
+      "quote": "Stay true to yourself, yet always be open to learning. Work hard, and never give up on your dreams, even when nobody else believes they can come true but you."
+    },
+    {
+      "number": 28,
+      "author": "James Gosling",
+      "quote": "The best way to predict the future is to invent it."
+    },
+    {
+      "number": 29,
+      "author": "Ginni Rometty",
+      "quote": "You have to be very nimble and very open-minded. Your success is going to be very dependent on how you adapt."
+    },
+    {
+      "number": 30,
+      "author": "Larry Wall",
+      "quote": "The three chief virtues of a programmer are: Laziness, Impatience, and Hubris."
+    },
+    {
+      "number": 31,
+      "author": "Marissa Mayer",
+      "quote": "I always did something I was a little not ready to do. I think that's how you grow."
+    },
+    {
+      "number": 32,
+      "author": "Satya Nadella",
+      "quote": "Our industry does not respect tradition; it only respects innovation."
+    },
+    {
+      "number": 33,
+      "author": "Sheryl Sandberg",
+      "quote": "Done is better than perfect."
+    },
+    {
+      "number": 34,
+      "author": "Grace Hopper",
+      "quote": "A ship in port is safe, but that is not what ships are for. Sail out to sea and do new things."
+    },
+    {
+      "number": 35,
+      "author": "Bill Gates",
+      "quote": "I believe that if you show people the problems and you show them the solutions, they will be moved to act."
+    },
+    {
+      "number": 36,
+      "author": "Larry Page",
+      "quote": "You never lose a dream; it just incubates as a hobby."
+    },
+    {
+      "number": 37,
+      "author": "Indra Nooyi",
+      "quote": "Leadership is hard to define and good leadership even harder. But if you can get people to follow you to the ends of the earth, you are a great leader."
+    },
+    {
+      "number": 38,
+      "author": "Brendan Eich",
+      "quote": "The best error message is the one that never shows up."
+    },
+    {
+      "number": 39,
+      "author": "Elon Musk",
+      "quote": "I think it is possible for ordinary people to choose to be extraordinary."
+    },
+    {
+      "number": 40,
+      "author": "Rosalind Picard",
+      "quote": "Never let anyone tell you you're too young to accomplish something. A baby shark is still a f***ing shark."
+    },
+    {
+      "number": 41,
+      "author": "Susan Wojcicki",
+      "quote": "Life is a blank canvas, and you need to throw all the paint on it you can."
+    },
+    {
+      "number": 42,
+      "author": "Alan Turing",
+      "quote": "Sometimes it is the people no one can imagine anything of who do the things no one can imagine."
+    },
+    {
+      "number": 43,
+      "author": "Niklaus Wirth",
+      "quote": "It is not the task of the University to offer what society asks for, but to give what society needs."
+    },
+    {
+      "number": 44,
+      "author": "Ginni Rometty",
+      "quote": "Don't let others define you. Don't let the past confine you. Take charge of your life with confidence and determination and there are no limits on what you can do or be."
+    },
+    {
+      "number": 45,
+      "author": "James Gosling",
+      "quote": "If someone else is paying for it, food always tastes better."
+    },
+    {
+      "number": 46,
+      "author": "Marissa Mayer",
+      "quote": "I always did something I was a little not ready to do. I think that's how you grow."
+    },
+    {
+      "number": 47,
+      "author": "Larry Page",
+      "quote": "Solving big problems is easier than solving little problems."
+    },
+    {
+      "number": 48,
+      "author": "Sheryl Sandberg",
+      "quote": "In the future, there will be no female leaders. There will just be leaders."
+    },
+    {
+      "number": 49,
+      "author": "Grace Hopper",
+      "quote": "The most important thing I've accomplished, other than building the compiler, is training young people."
+    },
+    {
+      "number": 50,
+      "author": "Bill Gates",
+      "quote": "Your most unhappy customers are your greatest source of learning."
+    },
+    {
+      "number": 51,
+      "author": "Linus Torvalds",
+      "quote": "Bad programmers worry about the code. Good programmers worry about data structures and their relationships."
+    },
+    {
+      "number": 52,
+      "author": "Margaret Hamilton",
+      "quote": "I like to be always learning."
+    },
+    {
+      "number": 53,
+      "author": "Jeff Bezos",
+      "quote": "I knew that if I failed, I wouldn't regret that, but I knew the one thing I might regret is not trying."
+    },
+    {
+      "number": 54,
+      "author": "Tim Berners-Lee",
+      "quote": "The original idea of the web was that it should be a collaborative space where you can communicate through sharing information."
+    },
+    {
+      "number": 55,
+      "author": "Elon Musk",
+      "quote": "Persistence is very important. You should not give up unless you are forced to give up."
+    },
+    {
+      "number": 56,
+      "author": "Satya Nadella",
+      "quote": "Our industry does not respect tradition; it only respects innovation."
+    },
+    {
+      "number": 57,
+      "author": "Sheryl Sandberg",
+      "quote": "Done is better than perfect."
+    },
+    {
+      "number": 58,
+      "author": "Larry Wall",
+      "quote": "There's more than one way to do it."
+    },
+    {
+      "number": 59,
+      "author": "Mark Zuckerberg",
+      "quote": "The question I ask myself like almost every day is if am I doing the most important thing I could be doing."
+    },
+    {
+      "number": 60,
+      "author": "Sundar Pichai",
+      "quote": "You are looking for a job and get a rejection, you feel bad. But you know, you have to keep working hard and you can make it."
+    },
+    {
+      "number": 61,
+      "author": "Mary Barra",
+      "quote": "The most important thing that I learned in growing up is that forgiveness is something that, when you do it, you free yourself to move on."
+    },
+    {
+      "number": 62,
+      "author": "Brendan Eich",
+      "quote": "The best error message is the one that never shows up."
+    },
+    {
+      "number": 63,
+      "author": "Rosalind Picard",
+      "quote": "The best way to accomplish an impossible task is to break it down into a series of smaller tasks that you can accomplish."
+    },
+    {
+      "number": 64,
+      "author": "James Gosling",
+      "quote": "The good news about computers is that they do what you tell them to do. The bad news is that they do what you tell them to do."
+    },
+    {
+      "number": 65,
+      "author": "Ginni Rometty",
+      "quote": "It's important to follow your gut instincts and pursue your passions, even if they seem risky."
+    },
+    {
+      "number": 66,
+      "author": "Indra Nooyi",
+      "quote": "There is no scientific answer for success. You can't define it. You've simply got to live it and do it."
+    },
+    {
+      "number": 67,
+      "author": "Ken Thompson",
+      "quote": "One of my most productive days was throwing away 1,000 lines of code."
+    },
+    {
+      "number": 68,
+      "author": "Sundar Pichai",
+      "quote": "I think it is important for us to have peaceful means to resolve matters, to talk, negotiate, engage, and to bring peace and stability to the world."
+    },
+    {
+      "number": 69,
+      "author": "Margaret Hamilton",
+      "quote": "What I have always done is to be open to new things, learning from others, seeing problems as a challenge, not a threat."
+    },
+    {
+      "number": 70,
+      "author": "Grace Hopper",
+      "quote": "Humans are allergic to change. They love to say, 'We've always done it this way.' I try to fight that. That's why I have a clock on my wall that runs counter-clockwise."
+    },
+    {
+      "number": 71,
+      "author": "Alan Turing",
+      "quote": "Those who can imagine anything, can create the impossible."
+    },
+    {
+      "number": 72,
+      "author": "Niklaus Wirth",
+      "quote": "There is a great difference between doing things and getting things done."
+    },
+    {
+      "number": 73,
+      "author": "Ginni Rometty",
+      "quote": "Growth and comfort do not coexist."
+    },
+    {
+      "number": 74,
+      "author": "James Gosling",
+      "quote": "The best way to predict the future is to invent it."
+    },
+    {
+      "number": 75,
+      "author": "Marissa Mayer",
+      "quote": "The important thing is to make the right decisions."
+    },
+    {
+      "number": 76,
+      "author": "Satya Nadella",
+      "quote": "Be passionate and bold. Always keep learning. You stop doing useful things if you don't learn."
+    },
+    {
+      "number": 77,
+      "author": "Sheryl Sandberg",
+      "quote": "I want every little girl who is told she is bossy to be told instead that she has leadership skills."
+    },
+    {
+      "number": 78,
+      "author": "Larry Wall",
+      "quote": "The best revenge is living well."
+    },
+    {
+      "number": 79,
+      "author": "Mark Zuckerberg",
+      "quote": "The question isn't, 'What do we want to know about people?' It's, 'What do people want to tell about themselves?'"
+    },
+    {
+      "number": 80,
+      "author": "Sundar Pichai",
+      "quote": "In technology, it's about the people. Getting the best people, retaining them, nurturing a creative environment, and helping to find a way to innovate."
+    },
+    {
+      "number": 81,
+      "author": "Mary Barra",
+      "quote": "You know, the issue of technology is an important one. People forget that, you know, a washing machine is technology. People forget that a stove is technology. But nobody forgets that a computer is technology."
+    },
+    {
+      "number": 82,
+      "author": "Brendan Eich",
+      "quote": "The more of it you have, the less you see."
+    },
+    {
+      "number": 83,
+      "author": "Rosalind Picard",
+      "quote": "Sometimes you can find peace of mind by transferring yourself to different situations. They're just reminders to stay ... calm."
+    },
+    {
+      "number": 84,
+      "author": "James Gosling",
+      "quote": "The biggest computer problems come from unanticipated uses."
+    },
+    {
+      "number": 85,
+      "author": "Ginni Rometty",
+      "quote": "When someone challenges you, fight back. Be brutal, be tough."
+    },
+    {
+      "number": 86,
+      "author": "Indra Nooyi",
+      "quote": "Don't underestimate yourself. You are better than you think."
+    },
+    {
+      "number": 87,
+      "author": "Ken Thompson",
+      "quote": "One of my most productive days was throwing away 1,000 lines of code."
+    },
+    {
+      "number": 88,
+      "author": "Sundar Pichai",
+      "quote": "We always work hard to do the right thing."
+    },
+    {
+      "number": 89,
+      "author": "Margaret Hamilton",
+      "quote": "I like to be always learning."
+    },
+    {
+      "number": 90,
+      "author": "Grace Hopper",
+      "quote": "You manage things; you lead people."
+    },
+    {
+      "number": 91,
+      "author": "Alan Turing",
+      "quote": "Machines take me by surprise with great frequency."
+    },
+    {
+      "number": 92,
+      "author": "Niklaus Wirth",
+      "quote": "The art of programming is the art of organizing complexity, of mastering multitude and avoiding its bastard chaos as effectively as possible."
+    },
+    {
+      "number": 93,
+      "author": "Ginni Rometty",
+      "quote": "I learned to always take on things I'd never done before."
+    },
+    {
+      "number": 94,
+      "author": "James Gosling",
+      "quote": "Java is not about platforms, it is about people."
+    },
+    {
+      "number": 95,
+      "author": "Marissa Mayer",
+      "quote": "I always did something I was a little not ready to do. I think that's how you grow."
+    },
+    {
+      "number": 96,
+      "author": "Satya Nadella",
+      "quote": "The world is changing, and the only way to make sense of it is to change with it."
+    },
+    {
+      "number": 97,
+      "author": "Sheryl Sandberg",
+      "quote": "Motivation comes from working on things we care about."
+    },
+    {
+      "number": 98,
+      "author": "Larry Wall",
+      "quote": "The three chief virtues of a programmer are: Laziness, Impatience, and Hubris."
+    },
+    {
+      "number": 99,
+      "author": "Mark Zuckerberg",
+      "quote": "Move fast and break things. Unless you are breaking stuff, you are not moving fast enough."
+    },
+    {
+      "number": 100,
+      "author": "Susan Wojcicki",
+      "quote": "We need to accept that we won't always make the right decisions, that we'll screw up royally sometimes - understanding that failure is not the opposite of success, it's part of success."
+    }
+  ]
+  
