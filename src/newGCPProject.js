@@ -28,6 +28,7 @@ const app = new App({
     
     function createGCPProject() {
         app.command('/create-project', async ({ command, ack, say }) => {
+            console.log("starting conversation with Magic Service");
             ack(); // Acknowledge the command request immediately
             
             try {
@@ -104,12 +105,10 @@ const app = new App({
             // Start the app
             await app.start(process.env.PORT || 3000);
         
-            console.log('Slackbot is running!');
+            console.log(`Slackbot is running on ${port}!`);
         })();
     }
 
-        console.log("testing");
-
         module.exports = generateRandomProjectId;
         module.exports = createGCPProject;
-        
+

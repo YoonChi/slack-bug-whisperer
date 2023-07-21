@@ -125,44 +125,16 @@ dotenv.config()
                 auth,
             }
         );
-            // const res = compute.instances.getInstance({
-            //     instance: 'bugslife',
-            //     project: 'finops-bot',
-            //     zone: 'us-central1-a'
-            // });
+        // const res = compute.instances.getInstance({
+        //     instance: 'bugslife',
+        //     project: 'finops-bot',
+        //     zone: 'us-central1-a'
+        // });
         // const instances = res.data.items;
 
         // console.log('List of instances:', instances);
+    }
 
-        // const instancesClient = new compute.InstancesClient();
-        // const zone = "us-central1-c"
-        // const [instanceList] = await instancesClient.list({
-        //     project: projectId,
-        //     zone,
-        // });
-
-        // console.log(`Instances found in zone ${zone}:`);
-        // for (const instance of instanceList) {
-        //     console.log(` - ${instance.name} (${instance.machineType})`);
-        // }
-
-  
-        }
-
-        // async function getInstance() {
-        //     const instancesClient = new compute.InstancesClient();
-
-        //     const [instance] = await instancesClient.get({
-        //     project: projectId,
-        //     zone: 'us-central1-a',
-        //     instance: 'bugslife',
-        //     });
-
-        //     const instaneName = 'bugslife'
-        //     console.log(
-        //     `Instance ${instanceName} data:\n${JSON.stringify(instance, null, 4)}`
-        //     );
-        // }
     // ---------------------------------------- //
 //     async function getInstances() {
 //         const projectId = 'finops-bot';
